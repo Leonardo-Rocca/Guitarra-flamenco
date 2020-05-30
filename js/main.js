@@ -61,7 +61,7 @@ function showImgModal(element) {
 // document.getElementById("img01").src = element.src;
 
     var index=element.getAttribute('index')!==undefined ? element.getAttribute('index'): 1;
-    document.getElementById("img01").src = "fotosBKP/Entrepiso_" + index + ".jpg";
+    document.getElementById("img01").src = "fotosBKP/Entrepiso_" + index + ".png";
     document.getElementById("modal01").style.display = "block";
 //  var captionText = document.getElementById("caption");
 //  captionText.innerHTML = element.alt;
@@ -91,7 +91,7 @@ function left() {
     var index = parseInt(element.attr('index'), 10);
     index = index - 1;
     if (index < 1) index = MAX_ELEMENTS;
-    element.attr('src', "fotosBKP/Entrepiso_" + index + ".jpg");
+    element.attr('src', "fotosBKP/Entrepiso_" + index + ".png");
     element.attr('index', index);
 }
 
@@ -101,7 +101,7 @@ function right() {
     var index = parseInt(element.attr('index'), 10);
     if (index >= MAX_ELEMENTS) index = 0;
     index = index + 1;
-    element.attr('src', "fotosBKP/Entrepiso_" + index + ".jpg");
+    element.attr('src', "fotosBKP/Entrepiso_" + index + ".png");
     element.attr('index', index);
 }
 
@@ -132,7 +132,7 @@ function loadImgs(position, offset) {
     for (var i = position; i <= offset; i++) {
 
         var img = $("#template").clone();
-        img.attr('src', "fotos/Entrepiso_" + i + ".jpg");
+        img.attr('src', "fotos/Entrepiso_" + i + ".png");
         img.attr('height', "235px"); //TODO: PASAR ESTA LINEA A CADA PAGINA
         img.attr('index', i);
         //   img.attr('padding',"2px");
