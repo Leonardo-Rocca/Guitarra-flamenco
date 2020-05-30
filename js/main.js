@@ -205,7 +205,7 @@ function sendQuestion(sendOptionFlag) {
     let inputText = $("#compose-question").val();
     let isWpp = sendOptionFlag === 'W';
 console.log(isWpp);
-    let href = isWpp ? "https://wa.me/5491161457082?text=" : "mailto:mueblesyproyectosespeciales@hotmail.com?subject=TuEntrepiso%20-%20Quería%20solicitar%20un%20presupuesto&body=";
+    let href = isWpp ? "https://wa.me/5491151144197?text=" : "mailto:nachoflamenco@gmail.com?subject=Nacho%20-%20Me%20interesan%20las%20clases&body=";
 
     var a = document.createElement('a');
     var linkText = document.createTextNode("my title text");
