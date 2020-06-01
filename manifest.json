@@ -1,6 +1,6 @@
 {
-  "short_name": "TuEntrepiso",
-  "name": "TuEntrepiso - Muebles y proyectos especiales",
+  "short_name": "Nacho guitarra",
+  "name": "Nacho Rocca - Clases de guitarra",
   "icons": [
     {
       "src": "fotos/logo48.png",
@@ -24,7 +24,7 @@
     }
   ],
   "display": "standalone",
-  "theme_color": "#012e5c",
+  "theme_color": "#4e342e",
   "background_color": "#01579B",
   "start_url": "/index.html?utm_source=homescreen"
 }
