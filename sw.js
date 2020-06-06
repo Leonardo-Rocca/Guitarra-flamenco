@@ -12,7 +12,7 @@ PRECACHE_URLS = [
     'js/js-index-loader.js',
     'js/main.min.js',
   //  'fotos/no_image.jpg',
-    'fotos/nacho.jpg',
+    'fotos/nacho.JPG',
     'fotos/nacho1.jpg',
     'fotos/nacho2.jpg',
     'fotos/nacho3.jpg',

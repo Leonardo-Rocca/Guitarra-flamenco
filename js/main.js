@@ -123,6 +123,8 @@ function loadImgs(position, offset) {
         $("#video1-container").append('<iframe style="height:360px" allowfullscreen="allowfullscreen" src="https://www.youtube.com/embed/ibMSEH4L33Q"></iframe> ');
         $("#video-muestra-container").append('    <video class="w3-center" style="width: 100%"  controls>      <source src="videos/COMPILADO muestra 2019 .mp4" type="video/mp4" title="compilado muestra 2019">  ...</video>');
 
+        $("#video-of-me-container").append('<iframe  class="w3-center" style="width:60%;height:345px" src="https://www.youtube.com/embed/eFTkzCQol0M"></iframe>');
+
 }
 
 function loadMoreImgs() {
