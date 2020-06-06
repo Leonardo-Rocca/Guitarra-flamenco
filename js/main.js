@@ -6,45 +6,6 @@ function itIsNotMe() {
     //return url_string.search("#123") == -1 && getAndroidVersion() != "4.3" && screen.height != undefined && screen.height!=616;
 }
 
-if ( itIsNotMe() ) {
-    [
-        'https://www.googletagmanager.com/gtag/js?id=UA-123383467-1',
-        'https://www.google-analytics.com/analytics.js'
-    ].forEach(function(src) {
-        var script = document.createElement('script');
-        script.src = src;
-        script.type='text/javascript';
-        script.async = true;
-        document.head.appendChild(script);
-    });
-
-    // <!-- Global site tag (gtag.js) - Google Analytics -->
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'UA-123383467-1');
-    // <!-- Global site tag (gtag.js) - Google Analytics -->
-
-    //<!-- Google Analytics -->
-    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-    ga('create', 'UA-123383467-1', 'auto');
-    ga('require', 'linkid', 'linkid.js');
-    ga('send', 'pageview');
-    //<!-- End Google Analytics -->
-
-    //<!-- Hotjar Tracking Code for https://tuentrepiso.github.io/ -->
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:1061489,hjsv:6};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-    //<!-- End Hotjar -->
-}
-    //<!-- not track me -->
-
 var alts = ["Imagen de entrepiso de madera y hierro en Capital Federal (CABA)",
             "Entrepiso Banfield",
             "Entrepiso de madera Lomas de Zamora"];
