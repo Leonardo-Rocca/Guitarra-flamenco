@@ -18,7 +18,7 @@ PRECACHE_URLS = [
     'fotos/nacho3.jpg',
     'fotos/nacho4.jpg',
     'fotos/fondo_principal.webp',
-    'fotos/fondo_principal.jpg'
+    'fotos/fondo_principal.png'
 
 ];
 
