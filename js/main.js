@@ -93,7 +93,7 @@ function loadImgs(position, offset) {
     for (var i = position; i <= offset; i++) {
 
         var img = $("#template").clone();
-        img.attr('src', "fotos/nacho" + i + ".jpg");
+        img.attr('data-src', "fotos/nacho" + i + ".jpg");
         img.attr('height', "235px"); //TODO: PASAR ESTA LINEA A CADA PAGINA
         img.attr('index', i);
         //   img.attr('padding',"2px");
