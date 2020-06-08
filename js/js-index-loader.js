@@ -8,5 +8,5 @@ setTimeout(()=>[
     script.async = false;
     document.head.appendChild(script);
 })
-,3000);
+,1000);
 
